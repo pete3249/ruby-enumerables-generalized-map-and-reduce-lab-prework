@@ -8,7 +8,7 @@ end
 
 def reduce(source_array, starting_value = source_array[0])
   n = starting_value
-  i=1
+  i = 1
   while i < source_array.length
     n = yield(n, source_array[i])
     i+=1
